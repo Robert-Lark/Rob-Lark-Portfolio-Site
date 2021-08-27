@@ -24,11 +24,15 @@ const Projects = () => {
       <StyledTitle>
         <h2>Sonic Architecture</h2>
         <h3>
-          This site hooks into the Discogs API to display information about
-          record labels and albums from select musicians. There is a news feed
-          where the user can get up to date info on the latest new pieces of
-          music coming out related to the artists and a reccomended section
-          allowing users to see pre-selected albums.
+          Built to display my skills implementing authorization and
+          authentication, along with API intergration. This app uses OAuth flow
+          to create user accounts (using MongoDb) via the discogs API. Once
+          signed in users can currate their music collection based off record
+          labels they might be interested in. There is a news feed where the
+          user can get up to date info on the latest new pieces of music coming
+          out related to the labels they have selected to follow and search
+          functionality. Users also have an extensive dashboard with features
+          like a top ten and wishlist.
         </h3>
         <StyledCards>
           <SG>
@@ -43,7 +47,7 @@ const Projects = () => {
             </div>
           </SG>
         </StyledCards>
-        <a href="https://zen-volhard-e00b02.netlify.app/" target="blank">
+        <a href="https://sonic-architecture-v1.netlify.app" target="blank">
           <button>Visit</button>
         </a>
         <a
